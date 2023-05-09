@@ -1,0 +1,132 @@
+*{
+    margin: auto;
+    /* background-color: rgb(246, 246, 246); */
+}
+
+#jumiapay{
+    display: flex;
+}
+
+#jumiapay .list ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+#jumiapay .list ul{
+    display: flex;
+}
+
+#jumiapay .soj{
+    display: flex;
+}
+#jumiapay .soj div{
+    margin: 5px;
+}
+
+
+#navbar{
+    padding-top: 20px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    /* margin: 20px; */
+    /* border: solid 2px #f8991e ; */
+}
+#navbar input{
+    width: 450px;
+    height: 35px;
+    /* margin-left: 40px; */
+    border-radius: 5px;
+}
+#navbar span button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #f8991e;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+ #navbar .profile{
+    display: flex;
+ }
+
+ #navbar .profile li{
+    list-style: none;
+    margin: 20px;
+ }
+
+#delivery{
+    height: 60px;
+    background-color: #f8991e;
+    display: flex;
+}
+
+#delivery .text{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+
+#delivery .text .span2{
+    background-color: red;
+    padding: 5px;
+}
+#delivery .text .span3{
+    text-transform: lowercase;
+    color: red;
+    font-size: 20px;
+}
+
+#delivery .order{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px;
+    background-color: rgb(121, 222, 222);
+
+
+}
+#delivery .midpic{
+    margin-left: 20px;
+}
+#jumiapay{
+    height: 40px;
+    background-color: rgb(246, 246, 246);
+}
+
+#home{
+    height: 600px;
+    display: flex;
+    margin: 15px;
+    background-color: rgb(246, 246, 246);
+}
+
+#home .menu ul{
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    list-style: none;
+    padding-top: 5px;
+}
+#home .menu ul li{
+    margin: 12px;
+}
+
+#home .mainpic{
+    background-image: url(pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+
+}
+#home .sidepic .sidepic_1{
+    padding: 15px;
+}
