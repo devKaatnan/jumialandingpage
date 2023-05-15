@@ -138,7 +138,7 @@
     padding: 15px;
 }
 
-/*Beginning  of dtyling for the supermarket page  */
+/*Beginning  of styling for the supermarket page  */
 
 
 #sp-home{
@@ -308,7 +308,7 @@
 
 }
 
-#sNew .beauty .products li p{
+#New .beauty .products li p{
     font-size: 18px;
     text-align: justify;
 }
@@ -337,6 +337,93 @@
     text-align: center;
 }
 
+/* Beginning of styling for home and office page */
+#hoa-home{
+    margin: 50px;
+}
+#hoa-home a{
+    text-decoration: none;
+}
+#hoa-home .mainpic{
+    margin-top: 10px;
+    background-image: url(./images/sheraton.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 250px;
+
+}
+
+#hoffice{
+    margin-top: 20px;
+    width: 94%;
+    height: 500px;
+}
+#hoffice .top{
+    background-color: rgb(232, 224, 224);
+    margin: 20px;
+    padding: 20px;
+}
+#hoffice p{
+    display: inline;
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+    text-align: center;
+    font-size: 20px;
+}
+
+#hoffice .top .p2{
+    float: right;
+    text-transform: uppercase;
+}
+#hoffice .home{
+    background-color: white;
+    height: 200px;
+
+}
+#hoffice .home .office{
+    display: flex;
+    list-style: none;
+    /* margin: 2px; */
+    /* background-color: rgb(226, 222, 222); */
+    /* width: 94%; */
+}
+#hoffice .home .office li{
+    margin: 2px;
+    background-color: white;
+
+}
+
+#hoffice .home .office li p{
+    font-size: 18px;
+    text-align: justify;
+}
+#hoffice .home .office li .slashed{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: gray;
+}
+
+/* Styling for second div */
+#hoffice .home .others{
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+    /* background-color: rgb(226, 222, 222); */
+    /* width: 94%; */
+}
+#hoffice .home .others li{
+    margin: 2px;
+    background-color: white;
+
+}
+
+#hoffice .home .others li p{
+    font-size: 18px;
+    text-align: center;
+}
+
+
 /*Beginning  of dtyling for the phones page  */
 #phone-home{
     margin: 50px;
@@ -352,3 +439,73 @@
     height: 250px;
 
 }
+
+#fones{
+    margin-top: 20px;
+    width: 94%;
+    height: 500px;
+}
+#fones .top{
+    background-color: rgb(232, 224, 224);
+    margin: 20px;
+    padding: 20px;
+}
+#fones p{
+    display: inline;
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+    text-align: center;
+    font-size: 20px;
+}
+
+#fones .top .p2{
+    float: right;
+    text-transform: uppercase;
+}
+#fones .types{
+    background-color: white;
+    height: 200px;
+
+}
+#fones .types .brands{
+    display: flex;
+    list-style: none;
+    /* margin: 2px; */
+    /* background-color: rgb(226, 222, 222); */
+    /* width: 94%; */
+}
+#fones .types .brands li{
+    margin: 2px;
+    background-color: white;
+
+}
+
+#fones .types .brands li p{
+    font-size: 18px;
+    text-align: justify;
+}
+#fones .types .brands li .slashed{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: gray;
+}
+
+/* Styling for second div */
+#fones .types .others{
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+    /* background-color: rgb(226, 222, 222); */
+    /* width: 94%; */
+}
+#fones .types .others li{
+    margin: 2px;
+    background-color: white;
+
+}
+
+#fones .types .others li p{
+    font-size: 18px;
+    text-align: center;
+}
+
