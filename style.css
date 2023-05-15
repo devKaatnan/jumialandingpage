@@ -104,7 +104,7 @@
 }
 
 #home{
-    height: 600px;
+    height: 400px;
     display: flex;
     margin: 15px;
     background-color: rgb(246, 246, 246);
@@ -136,6 +136,90 @@
 
 #home .sidepic .sidepic_1{
     padding: 15px;
+}
+
+.next{
+    /* width: 80%; */
+    margin: 50px;
+    display: flex;
+    /* background-color: #BCAAA4; */
+}
+.next li{
+    list-style: none;
+    margin: 3px;
+}
+#home-deals{
+    /* border: 2px solid; */
+    /* background-color: rgb(246, 246, 246); */
+    margin-top: 20px;
+    width: 95%;
+    /* height: 400px; */
+}
+#home-deals .top{
+    margin: 20px;
+    /* padding: 10px; */
+}
+
+#home-deals .top p{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+#home-deals .top .p2{
+    float: right;
+    text-transform: uppercase;
+}
+#home-deals .stock{
+    background-color: white;
+    height: 200px;
+
+}
+#home-deals .stock .drinks{
+    display: flex;
+    list-style: none;
+    /* margin: 2px; */
+    /* background-color: rgb(226, 222, 222); */
+    /* width: 94%; */
+}
+#home-deals .stock .drinks li{
+    margin: 2px;
+    background-color: white;
+
+}
+
+#home-deals .stock .drinks li p{
+    font-size: 18px;
+    text-align: justify;
+}
+#home-deals .stock .drinks li .slashed{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: gray;
+}
+
+#flash-sales{
+    margin-top: 100px;
+}
+#flash-sales .top{
+    background-color: red;
+    color: white;
+    width: 95%;
+    height: 50px;
+    display: flex;
+}
+#flash-sales .others{
+    width: 95%;
+    display: flex;
+}
+#flash-sales .others li{
+    list-style: none;
+}
+#flash-sales .top p{
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 /*Beginning  of styling for the supermarket page  */
